@@ -58,7 +58,7 @@ int main()
  cout<<"***Banking System***"<<endl;
  do
  {
- cout<<"\n\tSelect one option below ";
+ cout<<"\n\tSelect one option from below ";
  cout<<"\n\t1 Open an Account";
  cout<<"\n\t2 Balance Enquiry";
  cout<<"\n\t3 Deposit";
@@ -78,7 +78,7 @@ cin>>lname;
 cout<<"Enter initil Balance: ";
 cin>>balance;
  acc=b.OpenAccount(fname,lname,balance);
- cout<<endl<<"Congradulation Account is Created"<<endl;
+ cout<<endl<<"Congratulation Account is Created"<<endl;
  cout<<acc;
 break;
  case 2:
@@ -117,7 +117,7 @@ cin>>accountNumber;
  break;
  case 7: break;
  default:
- cout<<"\nEnter corret choice";
+ cout<<"\nEnter correct choice";
 exit(0);
  }
  }while(choice!=7);
