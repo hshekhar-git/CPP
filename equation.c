@@ -1,22 +1,17 @@
-#include < stdio. h >
-
+#include<stdio.h>
 int main()
-
 {
-
-    int i, n = 130;
-
-    for (i = 1; i < 130; i + +) // for loop
-
+    int i,j,n=130;
+    for (i=1;i<n;i++)
     {
-
-        if (i + (n - i) == 130)
-
-        {
-            printf(" x = % d ", i);
-
-            printf(" y = % d ", (n - i));
-        }
-
-        return 0;
+    	for(j=1;j<n;j++)
+    	{
+    		if (i*j==130)
+        	{
+	            printf("%d %d",i,j);
+	            printf(" \n");
+        	}
+		}
     }
+        return 0;
+}
