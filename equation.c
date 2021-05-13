@@ -1,14 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int i,j,n=130;
-    for (i=1;i<n;i++)
+    int x,y,num;
+	scanf("%d",&num);	
+    for (x=1;x<n;x++)
     {
-    	for(j=1;j<n;j++)
+    	for(y=1;y<n;y++)
     	{
-    		if (i*j==130)
+    		if (x*y==num)
         	{
-	            printf("%d %d",i,j);
+	            printf("%d %d",x,y);
 	            printf(" \n");
         	}
 	}
