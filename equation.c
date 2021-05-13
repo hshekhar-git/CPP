@@ -1,3 +1,5 @@
+//Problem 2 - Multiple pairs of number 'num'
+
 #include<stdio.h>
 int main()
 {
