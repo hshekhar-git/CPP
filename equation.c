@@ -1,4 +1,6 @@
 //Problem 2 - Multiple pairs of number 'num'
+//To find out all positive whole numbers x and y satisfying the equation x*y = num
+
 
 #include<stdio.h>
 int main()
